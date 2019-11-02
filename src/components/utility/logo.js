@@ -9,13 +9,15 @@ export default ({ collapsed }) => {
         <div>
           <h3>
             <Link to="/dashboard">
-              <i className={siteConfig.siteIcon} />
+            Front End
+              {/* <i className={siteConfig.siteIcon} /> */}
             </Link>
           </h3>
         </div>
       ) : (
         <h3>
-          <Link to="/dashboard">{siteConfig.siteName}</Link>
+          {/* <Link to="/dashboard">{siteConfig.siteName}</Link> */}
+          <Link to="/dashboard">Front End</Link>
         </h3>
       )}
     </div>
